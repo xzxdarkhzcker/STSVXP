@@ -1,0 +1,144 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/42/e4/57/42e45729c9daa6cf7dcf7b869663e931.gif'); /* Replace with your custom background image */
+    background-size: cover;
+    font-family: Garamond, serif;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style: none;
+    padding: -0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: block;
+    text-decoration: none;
+    background-color: #000000; /* Change the background color to your preference */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #000000; /* Change the hover background color */
+}
+
+
+
+
+/* Style for the advertisement bar */
+#advertisement-bar {
+    background-color: #333; /* Background color of the bar */
+    color: white; /* Text color */
+    text-align: center; /* Center-align the content */
+    padding: 10px; /* Add padding for better appearance */
+    position: fixed; /* Fixed position at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+/* Style for the advertisement content */
+.advertisement-content {
+    max-width: 1200px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+
+
+
+
+
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-top: 1px solid #777;
+}
+
+/* Custom styles for the New Site section */
+#new-site-section {
+    background-image: url('https://i.pinimg.com/originals/5a/d4/f9/5ad4f9ffb2a82fcf66ed99d8b4b8483e.gif'); /* Set your custom background image */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Additional custom styles can be added as needed */
